@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <!-- Tiêu đề -->
+        <thead>
+            <tr>
+                <th>No </th>
+                <th>Full name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <!-- Nội dung -->
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Nguyễn VĂn A</td>
+                <td>Nhân viên</td>
+                <td>1000$</td>
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Nguyễn VĂn B</td>
+                <td>Giám đốc</td>
+                <td>3000$</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ngô Thị C</td>
+                <td>Trưởng phòng kinh doanh</td>
+                <td>2000$</td>
+
+            </tr>
+
+
+        </tbody>
+    </table>
+    <table>
+        <!-- Tiêu đề -->
+        <thead>
+            <tr>
+                <th>No </th>
+                <th>Full name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <!-- Nội dung -->
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Nguyễn VĂn A</td>
+                <td>Nhân viên</td>
+                <td>1000$</td>
+
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">Trần Văn B</td>
+                <td>Giám đốc</td>
+                <td>3000$</td>
+            </tr>
+            <tr>
+                <td>Quản Lý Nhân Sự</td>
+                <td>2000$</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ngô Thị C</td>
+                <td>Trưởng phòng kinh doanh</td>
+                <td>2000$</td>
+
+            </tr>
+
+
+
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">No</th>
+            <th rowspan="2">Name</th>
+
+
+            <th colspan="2">Address</th>
+            </tr>
+            <tr> 
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+            
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bùi Hiền</td>
+                <td>Thái Bình</td>
+                <td>Việt Nam</td>
+            
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Lisa</td>
+                <td>Bắc Kinh </td>
+                <td>Trung Quốc</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3">Danh sách ca sĩ</th>
+            </tr>
+            <tr> 
+                <th>STT</th>
+                <th>Họ Và Tên</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="2">Quang THo</td>
+                <td>Quangtho@gmail.com</td>
+
+            </tr>
+            <tr> 
+                
+               
+                <td>Quangtho@yahoo.com</td>
+            </tr>
+        </tbody>
+    </table> <hr>
+
+
+
+
+
+
+
+
+    <form>
+        <input type="text" placeholder="Nhập tên"> <br>
+        <input type="password" placeholder="Password"> <br>
+        <textarea placeholder="Nhập Ghi Chú"></textarea><br>
+        <!-- Các nút  -->
+        <button>Đăng Nhập</button>
+        <input type="submit" value="Đăng Ký"> <br>
+        <!-- Chọn file -->
+        <input type="file"> <br>
+        <!-- radio - 1 lựa chon -->
+        <input type="radio" name="gender" id="male"><label for="male">Nam</label>
+        <input type="radio" name="gender" id="female"><label for="female">Nữ</label><br>
+        <!-- checkbox-Nhiều lựa chọn -->
+        <input type="checkbox" id="Vietnamese"><label for="Vietnamese">Tiếng Việt</label>
+        <input type="checkbox" id="japanese"><label for="japanese">Tiếng Nhật</label>
+        <input type="checkbox" id="Korean"><label for="Korean">Tiếng Hàn</label><br>
+        <!-- select -->
+        <select>
+            <option>Tháng 1</option>
+            <option>Tháng 2</option>
+            <option>Tháng 3</option>
+            <option>Tháng 4</option>
+        </select>
+        
+    </form>
+</body>
+
+</html>
