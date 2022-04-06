@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{ font-family: 'Roboto', sans-serif ;
+    overflow: hidden;
+
+}
+a{
+    text-decoration: none;
+}
+
+
+    
+.card{
+    width: 420px;
+    margin: auto;
+    margin-top: 50px;
+}
+.year{
+    background-color: #ef5321;
+    color: #fff;
+    text-align: center;
+    padding: 6px 0;
+    font-weight: 300;
+}
+.monthdate{
+    background-color: #fe6d3f;
+    
+    text-align: center;
+    padding: 36px;
+}
+.month{
+    color: #fff;
+
+}
+.date{
+    color: #fff;
+    font-size: 40px;
+}
+.content{
+    box-shadow: 0 4px 4px rgb(0 0 0 /15% );
+    padding: 24px;
+    font-size: 15px;
+    font-weight: 200;
+}
+.title{
+    font-size: 20.8px;
+    color: #464646;
+}
+.info{
+    margin-top: 15px;
+    text-align: left;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 14.4px;
+    line-height: 14.4px;
+    
+    
+}
